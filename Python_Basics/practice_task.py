@@ -13,6 +13,8 @@ Area_Traingle = (a*b)/2
 print ("Area of trangle is = " ,Area_Traingle)
 
 #------------------------ Swap two variables----------------------------
+print("a value is = " ,a)
+print("b value is = " ,b)
 temp = a
 a = b
 b = temp
@@ -42,7 +44,7 @@ fahrenheit = (celsius * 1.8) + 32
 print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
 
 #--------- Check if number is positive negative or zero----------------------
-number = float(input("Enter a number: "))
+number = float(input("Enter a any number: "))
 if number > 0:
    print("this is Positive number  ")
 elif number == 0:
@@ -58,7 +60,7 @@ else:
    print("{0} is Odd".format(number))
 
 #-------------------------------Leap year----------------------------------
-year = 1000
+year = 500
 if (year % 4) == 0:
    if (year % 100) == 0:
        if (year % 400) == 0:
@@ -72,9 +74,9 @@ else:
 
 
 #------------- Find largest number among three numbers----------------------
-x = 123
-y = 114
-z = 150
+x = 100
+y = 500
+z = 1000
 if (x >= y) and (x >= z):
    largest = x
 elif (y >= x) and (y >= z):
