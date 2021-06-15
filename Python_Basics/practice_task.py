@@ -60,7 +60,7 @@ else:
    print("{0} is Odd".format(number))
 
 #-------------------------------Leap year----------------------------------
-year = 500
+year = 2021
 if (year % 4) == 0:
    if (year % 100) == 0:
        if (year % 400) == 0:
