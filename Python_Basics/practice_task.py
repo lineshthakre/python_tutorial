@@ -2,22 +2,22 @@
 a = 47
 b = 67
 c = (a + b)
-print(c)
+print("addition of two num is = ", c)
 
 #--------------------------- Find the square root-----------------------
 print ("exponent:", a**2)
-print (b**2)
+print ("Square root of = ", b**2)
 
 # -------------------------Find area of traingle------------------------
 Area_Traingle = (a*b)/2
-print (Area_Traingle)
+print ("Area of trangle is = " ,Area_Traingle)
 
 #------------------------ Swap two variables----------------------------
 temp = a
 a = b
 b = temp
-print('The value of a after swapping: {}'.format(a))
-print('The value of b after swapping: {}'.format(b))
+print('The value of a after swapping a: {}'.format(a))
+print('The value of b after swapping b: {}'.format(b))
 
 # ---------------------Convert Kilometers to miles----------------------
 kilometers = float(input("kilometers: "))
@@ -29,10 +29,10 @@ print ('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
 
 # Miles to kilometers
 miles = float(input("miles: "))
-print (miles)
+print ("Miles is = ", miles)
 conversion_factor = 0.621
 kilometers = miles/conversion_factor
-print(kilometers)
+print("Kilometers is =", kilometers)
 
 
 #----------------------- Convert celsius to fahrenheit---------------------
@@ -81,4 +81,4 @@ elif (y >= x) and (y >= z):
    largest = y
 else:
    largest = z
-print("The largest number is", largest)
+print("The largest number is = ", largest)
