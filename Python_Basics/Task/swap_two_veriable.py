@@ -1,5 +1,5 @@
-print("a value is = " ,a)
-print("b value is = " ,b)
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
 temp = a
 a = b
 b = temp
