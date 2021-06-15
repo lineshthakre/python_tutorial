@@ -1,6 +1,6 @@
 # ----------------------Add two numbers---------------------------------
-a = 47
-b = 67
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
 c = (a + b)
 print("addition of two num is = ", c)
 
@@ -22,7 +22,7 @@ print('The value of a after swapping a: {}'.format(a))
 print('The value of b after swapping b: {}'.format(b))
 
 # ---------------------Convert Kilometers to miles----------------------
-kilometers = float(input("kilometers: "))
+kilometers = float(input("Enter the kilometers: "))
 print (kilometers)
                         # Conversion
 conversion_factor = 0.621
@@ -30,7 +30,7 @@ miles = kilometers*conversion_factor
 print ('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
 
 # Miles to kilometers
-miles = float(input("miles: "))
+miles = float(input("Enter the miles: "))
 print ("Miles is = ", miles)
 conversion_factor = 0.621
 kilometers = miles/conversion_factor
@@ -39,12 +39,12 @@ print("Kilometers is =", kilometers)
 
 #----------------------- Convert celsius to fahrenheit---------------------
 
-celsius = float(input("Enter a number celsius degree: "))
+celsius = float(input("Enter the number celsius degree: "))
 fahrenheit = (celsius * 1.8) + 32
 print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
 
 #--------- Check if number is positive negative or zero----------------------
-number = float(input("Enter a any number: "))
+number = float(input("Enter any number: "))
 if number > 0:
    print("this is Positive number  ")
 elif number == 0:
@@ -53,14 +53,14 @@ else:
    print("this is Negative number  ")
 
 #----------------- check number is odd or even-------------- ---------------
-number = int(input("Enter a number which is odd or even: "))
+number = int(input("Enter the number which is odd or even: "))
 if (number % 2) == 0:
    print("{0} is Even".format(number))
 else:
    print("{0} is Odd".format(number))
 
 #-------------------------------Leap year----------------------------------
-year = 2021
+year = int(input("Enter a year: "))
 if (year % 4) == 0:
    if (year % 100) == 0:
        if (year % 400) == 0:
@@ -74,9 +74,9 @@ else:
 
 
 #------------- Find largest number among three numbers----------------------
-x = 100
-y = 500
-z = 1000
+x = int(input("Enter x vaule : "))
+y = int(input("Enter y value : "))
+z = int(input("Enter z value : "))
 if (x >= y) and (x >= z):
    largest = x
 elif (y >= x) and (y >= z):
