@@ -17,5 +17,5 @@ for i in range(1,11):
 
 #print reverse even Number
 N = int(input("Enter the Maximum Value : "))
-for number in range(2, N, 2):
-    print("{0}".format(number))
+for number in range(N, 2 , -2):
+    print((number))
